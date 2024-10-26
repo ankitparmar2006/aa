@@ -431,6 +431,7 @@ p {
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   /* justify-content: center; */
   /* text-align: center; */
 }
@@ -664,3 +665,24 @@ background-color: black;
 
 
 /* <!-- footer cording end here  --> */
+
+
+
+/* responsive work start from here  */
+
+
+@media (max-width:450px) {
+
+      #birthday-top {
+        margin-left: 0%;
+      }
+
+   
+
+
+
+
+
+}
+       
+        
