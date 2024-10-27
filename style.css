@@ -177,6 +177,7 @@
   margin-top: 36px;
   margin-left: 47%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   font-size: 50px;
@@ -674,13 +675,134 @@ background-color: black;
 @media (max-width:450px) {
 
       #birthday-top {
-        margin-left: 0%;
+        margin-left: 3%;
+      }
+      
+      #box30-top .box30-down {
+        display: grid;
+        grid-template-columns: auto ;
+        justify-content: space-around;
+      
+        text-align: center;
       }
 
-   
+      #about .heart-heading {
+        /* margin-top: 160px; */
+        margin-left:0%;
+        font-weight: bolder;
+        font-size: 23px;
+      }
+      
+      /* extra space work end now mobile works start  */
 
 
+      #topheader span {
+        display: none;
+      }
 
+      #home {
+        text-align: center;
+        padding-top: 20%;
+      }
+
+      #home .super-crispy {
+        padding-left: 31%;
+      }
+
+      #home .cakezone {
+        margin-top: 8%;
+      }
+
+      #home .h2 {
+        margin-top: 7%;
+      }
+
+      /* about header  */
+
+      #about .about-header h1 {
+        padding-left: 10%;
+        font-size: 25px;
+      }
+
+      #about hr {
+        width: 70%;
+        margin-left: 13%;
+      }
+
+      #about .about-img {
+        height: 50%;
+        margin-left: 5px;
+        margin-top: 50px;
+        background-size: cover;
+        background-position: center;
+      }
+
+      #about .heart {
+        margin-top: 10px;
+      }
+
+      
+      #about .award {
+        margin-top: 10px;
+      }
+
+      
+      #about .heart-heading {
+        margin-top: 125px;
+      }
+
+       
+      #about .heart-heading {
+        margin-top: 125px;
+        font-size: 15px;
+        padding-left: 220px;
+      }
+
+
+      
+      #about .award-heading {
+        margin-top: 125px;
+        font-size: 15px;
+      }
+
+      /* about work end here */
+
+      /* counting work */
+
+      #counting .counting-heading {
+        text-align: center;
+      }
+
+      .box3 {
+        margin-top: 50px;
+      }
+
+      #menu .menu-header h1 {
+      font-size: 25px;
+      padding-left: 15%;
+      }
+
+      #menu hr {
+        width: 67%;
+        margin-left: 13%;
+      }
+     
+      #box30-top .discount-top h1 {
+      padding: 10%;
+
+      }
+
+      /* special combo pack  */
+
+      #special .combo .special-h21  {
+        padding: 24px;
+      }
+
+      #special .combo p {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    
 
 
 }
