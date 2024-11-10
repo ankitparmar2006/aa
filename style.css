@@ -13,7 +13,6 @@
   color: white;
   display: flex;
   justify-content: space-between;
-  /* padding-top: 15px; */
   align-items: center;
   font-weight: lighter;
   justify-content: space-around;
@@ -23,6 +22,10 @@
   color: rgb(206, 206, 20);
   margin-left: 2px;
 }
+
+
+/*=======================     topheader css end from here     ==========================*/
+
 
 /* ========================         navbar start from here     ======================= */
 
@@ -38,7 +41,6 @@
 
 #navbar nav ul {
   display: flex;
-  /* /* margin-left: 60%; */
   gap: 20px;
   list-style: none;
 }
@@ -67,7 +69,12 @@
 
 #navbar nav ul li:hover a {
   color: red;
+
 }
+
+
+
+/* ========================         navbar end from here     ======================= */
 
 /* <!--================== main section start from here================================ --> */
 
@@ -100,6 +107,9 @@
   color: #e88f2a;
 }
 
+
+/* <!--================== main section end from here================================ --> */
+
 /* = ============         button cording start from here                ============ */
 #home .btn {
   border: #e88f2a;
@@ -115,6 +125,9 @@
   color: white;
   background: transparent;
 }
+
+
+/* = ============         button cording end  from here                ============ */
 
 /* <!-- ==============         About cording start from here      ============ --> */
 
@@ -157,7 +170,6 @@
   height: 72%;
   border: #e88f2a;
   position: absolute;
-  /* padding-left: 10px; */
   margin-top: 22px;
   margin-left: 20px;
 }
@@ -166,6 +178,9 @@
   padding-left: 44%;
   margin-top: 33px;
 }
+
+
+/* <!-- ==============         About cording end from here      ============ --> */
 
 /* heart and award cording start from here  */
 
@@ -184,7 +199,6 @@
   background-color: #e88f2a;
   border: 3px solid brown;
   /* border: 2px solid red; */
-  /* background-color: #e88f2a; */
   transition: background-color 1s ease;
 }
 
@@ -214,7 +228,6 @@
   background-color: #e88f2a;
   border: 3px solid brown;
   /* border: 2px solid red; */
-  /* background-color: #e88f2a; */
   transition: background-color 1s ease;
 }
 
@@ -223,11 +236,6 @@
   width: 100px;
 }
 
-/* #about .award:hover {
-  background-color: brown;
-  width: 110px;
-  height: 120px;
-} */
 
 #about .award-heading {
   margin-top: 160px;
@@ -240,7 +248,9 @@
   display: flex;
 }
 
-/* <!-- ==============         About cording end here      ============ --> */
+
+/* heart and award cording  end from here  */
+
 
 /* <!-- counting number box work start from here  --> */
 
@@ -299,7 +309,7 @@
 
 /* <!-- counting number box work end here  --> */
 
-/* <!-- Menu & Pricing  --> */
+/* <!--============= Menu & Pricing   start from here ====--> */
 
 #menu {
   width: 100%;
@@ -331,6 +341,9 @@ hr {
   color: red;
 }
 
+
+/* <!--============= Menu & Pricing  end from here ====--> */
+
 /* birthday box cording start from here  */
 
 #birthday-top {
@@ -361,6 +374,10 @@ hr {
   align-items: center;
   /* margin-top: 8%; */
 }
+
+
+/* birthday box cording end from here  */
+
 
 /* box cording start from here  */
 
@@ -404,6 +421,10 @@ p {
   font-weight: bold;
 }
 
+
+
+/* box cording end from here  */
+
 /* birthday wedding custom cording start from here  */
 
 #birthday-top .birthday .birthday-box .btn-bdy {
@@ -421,6 +442,8 @@ p {
   background: transparent;
 }
 
+/* birthday wedding custom cording end from here  */
+
 /* <!-- 30% discount for this summer cording start from here  --> */
 
 #box30-top .box30-down .box31 {
@@ -428,13 +451,10 @@ p {
   height: 170px;
   border: 2px solid #e88f2a;
   background-color: #e88f2a;
-  /* margin-top: 30px; */
   justify-content: center;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
-  /* text-align: center; */
 }
 
 #box30-top .box30-down .box31 .box30 p {
@@ -474,6 +494,8 @@ p {
   background: transparent;
 }
 
+/* button cording start from here  */
+
 /* discount image cording start from here  */
 
 .discount-top {
@@ -482,9 +504,6 @@ p {
   /* border: 2px solid black; */
   background-image: url(./images/service.jpg);
   background-size: cover;
-  /* display: flex; */
-  /* justify-items: center; */
-  /* justify-content: center; */
   text-align: center;
   margin-top: 20px;
 }
@@ -516,11 +535,7 @@ p {
 
 /* <!-- special combo pack --> */
 
-/* 
 
-img {
-  opacity: 80%;
-/* } */
 #special .combo {
   width: 100%;
   height: 100vh;
@@ -664,12 +679,16 @@ color: white;
 background-color: black;
 }
 
+#bar-s {
+  display: none;
+}
 
-/* <!-- footer cording end here  --> */
+
+/* <!-- =========================   footer cording end here =================================== --> */
 
 
 
-/* responsive work start from here  */
+/*======================== responsive work start from here ======================== */
 
 
 @media (max-width:450px) {
@@ -687,7 +706,6 @@ background-color: black;
       }
 
       #about .heart-heading {
-        /* margin-top: 160px; */
         margin-left:0%;
         font-weight: bolder;
         font-size: 23px;
@@ -700,6 +718,7 @@ background-color: black;
         display: none;
       }
 
+      /*=============== home work===================== */
       #home {
         text-align: center;
         padding-top: 20%;
@@ -717,7 +736,10 @@ background-color: black;
         margin-top: 7%;
       }
 
-      /* about header  */
+      
+      /*=============== home work end ===================== */
+
+      /* ================about header start==================  */
 
       #about .about-header h1 {
         padding-left: 10%;
@@ -765,9 +787,9 @@ background-color: black;
         font-size: 15px;
       }
 
-      /* about work end here */
+      /* ================about header start==================  */
 
-      /* counting work */
+      /* counting work  start*/
 
       #counting .counting-heading {
         text-align: center;
@@ -792,7 +814,7 @@ background-color: black;
 
       }
 
-      /* special combo pack  */
+      /* special combo pack start from here   */
 
       #special .combo .special-h21  {
         padding: 24px;
@@ -802,9 +824,9 @@ background-color: black;
         padding-left: 10px;
         padding-right: 10px;
       }
+    }
+
     
+      /* special combo pack end from here   */
 
-
-}
-       
-        
+      /* website responsive work end from here and complete */
