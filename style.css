@@ -693,6 +693,29 @@ background-color: black;
 
 @media (max-width:450px) {
 
+/* navbar cording start from here   */
+/* 
+  #navbar nav ul {
+    display: none;
+
+  }
+  input {
+    width: 100%;
+  }
+  .lab {
+    position: absolute;
+    z-index: 99999999;
+  }
+  #bars:checked~#navbar nav ul {
+display: block;
+position: absolute;
+
+  }
+
+  #bar:checked~main #home .hometext {
+
+  } */
+
       #birthday-top {
         margin-left: 3%;
       }
