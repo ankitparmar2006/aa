@@ -541,17 +541,18 @@ p {
   height: 100vh;
   background-size: cover;
   margin-top: 20px;
-  background-image: url(./images/offer.jpg);
+  background-image: url(./images/special2.jpeg);
   
   text-align: center;
   
 
 }
 
+
 #special .combo .special-h21 {
   color: #e88f2a;
   font-family: "Pacifico", cursive;
-  padding-top: 100px;
+  padding-top: 50px;
   font-size: 30px;
   font-weight: bolder;
 }
@@ -559,7 +560,7 @@ p {
 #special .combo .special-h22 {
   color: white;
   font-size: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 #special .combo p {
@@ -568,7 +569,7 @@ p {
   padding-left: 180px;
   padding-right: 180px;
   font-weight: bolder;
-  font-size: large;
+  /* font-size: large; */
 }
 
 /* specical 2 btn cording start from here  */
@@ -752,11 +753,11 @@ position: absolute;
       }
 
       #home .cakezone {
-        margin-top: 8%;
+        margin-top: 7%;
       }
 
       #home .h2 {
-        margin-top: 7%;
+        margin-top: 6%;
       }
 
       
@@ -814,8 +815,14 @@ position: absolute;
 
       /* counting work  start*/
 
+      
+      #counting {
+        margin-top: 100px;
+      }
+
       #counting .counting-heading {
         text-align: center;
+        
       }
 
       .box3 {
