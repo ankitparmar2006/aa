@@ -712,12 +712,12 @@ background-color: black;
     z-index: 99999999;
   color: #ccc;
     display: block;
-    left: 380px;
+    left: 20px;
   }
   #bar-ss:checked~#navbar nav ul {
 display: block;
 position: absolute;
-right: 30px;
+left: 40px;
 background-color: black;
 
    } 
