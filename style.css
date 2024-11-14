@@ -680,7 +680,10 @@ color: white;
 background-color: black;
 }
 
-#bar-s {
+ #bar-ss {
+  display: none;
+} 
+.lab{
   display: none;
 }
 
@@ -695,27 +698,31 @@ background-color: black;
 @media (max-width:450px) {
 
 /* navbar cording start from here   */
-/* 
-  #navbar nav ul {
-    display: none;
 
-  }
-  input {
-    width: 100%;
-  }
+  #navbar nav ul {
+     display: none;
+}
+
+
+#navbar nav ul li {
+  padding: 5px;
+}
   .lab {
     position: absolute;
     z-index: 99999999;
+  color: #ccc;
+    display: block;
+    left: 380px;
   }
-  #bars:checked~#navbar nav ul {
+  #bar-ss:checked~#navbar nav ul {
 display: block;
 position: absolute;
+right: 30px;
+background-color: black;
 
-  }
+   } 
 
-  #bar:checked~main #home .hometext {
 
-  } */
 
       #birthday-top {
         margin-left: 3%;
